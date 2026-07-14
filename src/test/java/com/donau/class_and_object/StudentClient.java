@@ -10,6 +10,20 @@ public class StudentClient {
 
         System.out.println(student1.name);
         System.out.println(student1.age);
+
+        System.out.println("------------------------");
+
+        Student student2 = new Student();
+
+        System.out.println(student1);
+        System.out.println(student2);
+
+        System.out.println("------------------------");
+
+        Student student3 = new Student("Ali");
+
+        System.out.println(student3);
+
     }
 
 }
