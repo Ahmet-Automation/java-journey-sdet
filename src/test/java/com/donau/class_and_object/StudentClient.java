@@ -24,6 +24,9 @@ public class StudentClient {
 
         System.out.println(student3);
 
+        Student student4 = new Student("Ali", 5, "male", 3.5);
+        System.out.println(student4);
+
     }
 
 }
